@@ -1,0 +1,19 @@
+.daylist{
+		background-color:rgba(255, 255,255, 0.3) !important;
+		border-radius: 25px;
+
+		
+}
+.ListContainer{
+	padding-left:10px;
+}
+
+.dayOfWeek{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+
+.dayOfWeek hr{
+	border:1px solid white;
+}

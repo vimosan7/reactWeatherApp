@@ -1,0 +1,43 @@
+.CurrentWeather{
+	align-items: center !important;
+	padding: 0 30px;
+	padding-bottom: 10px;
+	font-size: 30px ;
+	line-height: 70px;
+	text-align: center;
+	//background-color:rgba(255, 255, 255, 0.3);
+
+	border-radius: 25px;
+	color: white !important;
+}
+.CurrentWeather .weathericon{
+color: white !important;
+min-height: 75px !important;
+padding-top: 20px;
+font-size: 85px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+.CurrentWeather .title{
+	border-bottom: solid 1px white;
+	font-weight: bold;
+
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height:55px;
+}
+.CurrentWeather .weatherdetails{
+	line-height: 40px;
+}
+
+.CurrentWeather .header {
+	font-size: 1.2em;
+	padding: 10px 10px;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+}
+
+.currentData{
+	padding: 5px 5px;
+}

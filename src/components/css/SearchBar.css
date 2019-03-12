@@ -1,0 +1,71 @@
+.ui .segment{
+	background:transparent !important;
+}
+
+.ui input {
+	 background:transparent !important;
+	  text-align:center;
+}
+
+.field input{
+	  font-family: 'Roboto', sans-serif !important;
+  
+  border: 2px solid black !important ;
+  padding: 10px 12px !important;
+  height: 45px !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+    font-weight: 400 !important;
+    color: white !important;
+
+
+}
+
+.field input:focus {
+	
+  --box-shadow-color: green !important;
+  box-shadow: 0px 0px 10px var(--box-shadow-color) !important;
+  border: 1px solid green !important;
+}
+
+.pac-container{
+	background-color: transparent;
+	background-color:rgba(0, 0,0, 0.4) !important;
+	
+
+	
+}
+
+.pac-item:hover{
+	background-color:rgba(255, 255,255, 0.4) !important;
+
+}
+
+.pac-matched,.pac-item-query{
+	color:white;
+	font-size: 15px;
+
+}
+.pac-item{
+	border: solid transparent;
+	color: white;
+	
+	
+	
+
+	border-bottom: 1px solid white;
+}
+
+.hdpi .pac-icon, .pac-icon{
+	background: url('../images/places.png') no-repeat center;
+  background-size: 12px;
+  margin: 5px 6px 10px 0;
+  vertical-align: middle;
+}
+
+.pac-container:after {
+    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+    background-image: none !important;
+    height: 0px;
+}

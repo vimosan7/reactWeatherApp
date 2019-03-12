@@ -1,0 +1,65 @@
+.week-item{
+
+	/*display: flex !important;*/
+	align-items: center !important;
+	cursor: pointer;
+	min-height: 150px;
+	min-width: 150px;
+	text-align: center;
+	background-color:rgba(255, 255, 255, 0.3);
+	border-radius: 25px;
+	color: black !important;
+	
+	padding: 0 0 !important;
+	margin: 0 0 !important;
+	margin-right: 20px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	padding-top: 10px !important;
+
+	
+
+
+
+
+	/*
+	margin-bottom: 40px !important;
+	margin-left: 10px !important;
+	
+	margin-top: 40px !important;
+	*/
+	
+}
+#selected{
+	background-color:rgba(255, 255, 255, 0.5);
+	 --box-shadow-color: green !important;
+  box-shadow: 0px 0px 15px var(--box-shadow-color) !important;
+  border: 2px solid green !important;
+}
+.week-item:hover {
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+.week-item .header {
+	
+	color: black !important;
+
+}
+
+
+
+
+
+.week-item .weathericon{
+color: black !important;
+min-height: 75px !important;
+padding-top: 20px;
+font-size: 40px;
+
+
+}
+

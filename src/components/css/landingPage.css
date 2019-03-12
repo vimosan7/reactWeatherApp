@@ -1,0 +1,25 @@
+.landingBackground{
+	background:url("../images/forest1.jpg")  no-repeat center center fixed;
+	padding-top: 1px;
+	background-size: cover;
+	min-height: 100vh;
+	
+}
+
+.landingSearchBar{
+
+	padding-top: 50px;
+
+
+
+	
+}
+
+.landingSearchBar input{
+
+	color: black !important;
+}
+
+.landingSearchBar #autocomplete::placeholder{
+	color:black !important;
+}

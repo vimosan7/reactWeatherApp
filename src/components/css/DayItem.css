@@ -1,0 +1,48 @@
+.DayItem {
+	align-items: center !important;
+	color: black !important;
+	min-height: 150px;
+	min-width: 130px;
+	text-align: center;
+	padding: 0 0 !important;
+	margin: 0 0 !important;
+	margin-right: 10px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+
+
+	
+}
+
+
+
+
+
+
+
+.DayItem .header {
+	
+	color: black !important;
+
+}
+.DayItem .temperature{
+	color: black !important;
+}
+
+.DayItem img{
+	min-height: 75px;
+	min-width: 30px;
+	size: 30px;
+	color: white;
+	
+}
+
+.DayItem .weathericon{
+color: black !important;
+min-height: 75px !important;
+padding-top: 20px;
+font-size: 40px;
+
+
+
+}
